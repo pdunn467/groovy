@@ -8,7 +8,7 @@ class Example {
       //Check for the boolean condition 
       if (os == 'RHEL7') { 
          //If the condition is true print the following statement 
-         println("The name is"); 
+         println("The name is " + os); 
       } else { 
          //If the condition is false print the following statement 
          println("The value is greater than 100"); 
