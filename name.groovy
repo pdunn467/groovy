@@ -1,6 +1,7 @@
 class Example { 
    static void main(String[] args) { 
       // Initializing a local variable 
+      String buildname;
       String prod = "false";
       String os = "RHEL7"; 
       String type = "patch";
