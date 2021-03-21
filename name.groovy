@@ -5,7 +5,11 @@ class Example {
       String prod = "false";
       String os = "RHEL7"; 
       String type = "patch";
-      String date = "Date"; 
+      
+      import java.text.SimpleDateFormat
+      def date = new Date()
+      def sdf = new SimpleDateFormat("yy-mm-dd-HH")
+      println ("Build date is " sdf.format(date)
 		
       //Check for the boolean condition 
       if (prod == 'false') { 
